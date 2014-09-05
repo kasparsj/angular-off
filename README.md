@@ -6,9 +6,10 @@ Providing the method $off for $rootScope in Angular.js
 
 You can download angular-off by:
 
-* - Using bower and running `bower install angular-off --save`- This is a very old version it seems.
-* -Using npm and running `npm install angular-off --save`-
-* (prefered) Downloading it manually by clicking [here to download development unminified version](https://raw.githubusercontent.com/gdi2290/angular-off/master/angular-off.js)
+* ~~Using bower and running `bower install angular-off --save`~~ This is a very old version it seems.
+* ~~Using npm and running `npm install angular-off --save`~~
+* Adding this repo to your bower.json file
+* Downloading it manually by clicking [here to download development unminified version](https://raw.githubusercontent.com/gdi2290/angular-off/master/angular-off.js)
 
 
 ````html

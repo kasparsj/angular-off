@@ -4,17 +4,15 @@
     /* Config */
     module.config(['$provide', function ($provide) {
 
-        var self = this;
-
         function ngOff(eventName, fn) {
-            if (self.$$listeners) {
+            if (this.$$listeners) {
                 if (arguments.length > 1) {
-                    var namedListeners = self.$$listeners[eventName];
+                    var namedListeners = this.$$listeners[eventName];
                     if (namedListeners) {
                         namedListeners.splice(namedListeners.indexOf(fn), 1);
                     }
                 } else {
-                    self.$$listeners[eventName] = null;
+                    this.$$listeners[eventName] = null;
                 } // end args > 1
             } // end if $$listeners
         }
